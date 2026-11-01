@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WordHarbour Studio</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+WordHarbour Studio
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="editor">
+
+<h1>Create New Story</h1>
+
+<input
+id="title"
+type="text"
+placeholder="Story Title">
+
+<select id="category">
+
+<option>Fiction</option>
+
+<option>Poetry</option>
+
+<option>Travel</option>
+
+<option>Technology</option>
+
+<option>Lifestyle</option>
+
+<option>Opinion</option>
+
+<option>Education</option>
+
+</select>
+
+<input
+type="file"
+id="coverImage"
+accept="image/*">
+
+<textarea
+id="content"
+placeholder="Start writing your story..."></textarea>
+
+<input
+id="tags"
+type="text"
+placeholder="Tags (comma separated)">
+
+<p>
+
+Reading Time:
+<span id="readingTime">
+
+0 min
+
+</span>
+
+</p>
+
+<div class="editor-buttons">
+
+<button id="draftBtn">
+
+Save Draft
+
+</button>
+
+<button id="publishBtn">
+
+Publish Story
+
+</button>
+
+</div>
+
+</section>
+
+<script type="module" src="firebase/firebase.js"></script>
+<script src="js/editor.js"></script>
+<script type="module" src="js/publish.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | WordHarbor</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">WordHarbor</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="blog.html">Explore</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="auth-container">
+
+<h1>Welcome Back</h1>
+
+<p>Log in to continue writing and reading.</p>
+
+<form id="loginForm">
+
+<input type="email" id="email" placeholder="Email Address" required>
+
+<br><br>
+
+<input type="password" id="password" placeholder="Password" required>
+
+<br><br>
+
+<button class="btn" type="submit">
+    Log In
+</button>
+
+<form id="loginForm">
+
+<p style="margin-top:20px;">
+Don't have an account?
+<a href="signup.html">Sign Up</a>
+</p>
+
+</section>
+<script type="module" src="firebase/firebase.js"></script>
+<script type="module" src="js/login.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

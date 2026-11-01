@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WordHarbour | Where Every Story Finds a Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+
+        <nav class="navbar">
+
+    <div class="logo">
+        WordHarbour
+    </div>
+    <div class="menu-toggle" id="menuToggle">
+    ☰
+</div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+    <li><a href="blog.html">Explore</a></li>
+
+    <li><a href="#">Categories</a></li>
+
+    <li><a href="dashboard.html">Write</a></li>
+
+    <li><a href="#">Community</a></li>
+
+    <li><a href="about.html">About</a></li>
+
+</ul>
+
+<div class="nav-buttons" id="guestNav">
+
+    <a href="login.html" class="login-btn">Log In</a>
+
+    <a href="signup.html" class="signup-btn">Sign Up</a>
+
+</div>
+
+<div class="nav-buttons" id="userNav" style="display:none;">
+
+    <span id="welcomeUser"></span>
+
+    <a href="dashboard.html" class="login-btn">Write</a>
+
+    <button id="logoutBtn" class="signup-btn">Logout</button>
+
+</div>
+
+    <button id="themeToggle" class="theme-btn">
+        🌙
+    </button>
+
+</nav>
+
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Every Writer Deserve a Safe Harbour</h1>
+
+            <p>
+                Discover inspiring voices, share your own stories, and become part of a welcoming community where every writer belongs.
+            </p>
+
+            <a href="blog.html" class="btn">
+                Read Blogs
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Featured Posts -->
+
+    <section class="featured">
+
+        <div class="section-header">
+
+    <h2>Featured Articles</h2>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search blogs...">
+
+</div>
+
+        <div class="card-container">
+
+            <div class="card blog-card">
+
+                <img src="images/blog1.jpg" alt="Blog">
+
+                <div class="card-content">
+
+                    <h3>Getting Started with Coding</h3>
+
+                    <p>
+                        Learn how anyone can begin programming from scratch.
+                    </p>
+
+                    <a href="posts/post 1.html">Read More</a>
+
+                </div>
+
+            </div>
+
+            <div class="card blog-card">
+
+                <img src="images/blog2.jpg" alt="Blog">
+
+                <div class="card-content">
+
+                    <h3>Travel Adventures</h3>
+
+                    <p>
+                        Explore beautiful destinations around the world.
+                    </p>
+
+                    <a href="posts/post 2.html">Read More</a>
+
+                </div>
+
+            </div>
+
+            <div class="card blog-card">
+
+                <img src="images/blog3.jpg" alt="Blog">
+
+                <div class="card-content">
+
+                    <h3>Productivity Tips</h3>
+
+                    <p>
+                        Increase your efficiency with these practical habits.
+                    </p>
+
+                    <a href="posts/post 3.html">Read More</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="categories">
+
+    <h2>Browse by Category</h2>
+
+    <div class="category-container">
+
+        <div class="category-card">
+            🚗
+            <h3>Cars</h3>
+        </div>
+
+        <div class="category-card">
+            🎮
+            <h3>Gaming</h3>
+        </div>
+
+        <div class="category-card">
+            💻
+            <h3>Technology</h3>
+        </div>
+
+        <div class="category-card">
+            🎬
+            <h3>Movies</h3>
+        </div>
+
+        <div class="category-card">
+            📱
+            <h3>Reviews</h3>
+        </div>
+
+    </div>
+    <section class="writers">
+
+    <h2>Featured Writers</h2>
+
+    <div class="writer-container">
+
+        <div class="writer-card">
+
+            <img src="images/writer1.jpg" alt="Writer">
+
+            <h3>Sarah Mitchell</h3>
+
+            <p>Travel & Lifestyle</p>
+
+            <span>⭐ 142 Articles</span>
+
+            <a href="#" class="btn">View Profile</a>
+
+        </div>
+
+        <div class="writer-card">
+
+            <img src="images/writer2.jpg" alt="Writer">
+
+            <h3>Alex Chen</h3>
+
+            <p>Technology</p>
+
+            <span>⭐ 87 Articles</span>
+
+            <a href="#" class="btn">View Profile</a>
+
+        </div>
+
+        <div class="writer-card">
+
+            <img src="images/writer3.jpg" alt="Writer">
+
+            <h3>Maya Patel</h3>
+
+            <p>Poetry & Fiction</p>
+
+            <span>⭐ 211 Articles</span>
+
+            <a href="#" class="btn">View Profile</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</section>
+<section class="stats">
+
+    <div>
+        <h2>50+</h2>
+        <p>Articles</p>
+    </div>
+
+    <div>
+        <h2>10K+</h2>
+        <p>Readers</p>
+    </div>
+
+    <div>
+        <h2>5</h2>
+        <p>Categories</p>
+    </div>
+
+</section>
+<section class="author">
+
+    <img src="images/profile.jpg" alt="Author">
+
+    <div class="author-info">
+
+        <h2>About the Author</h2>
+
+        <p>
+            Hi! I'm the creator of WordHarbour. I enjoy writing about cars,
+            technology, gaming, movies, and anything interesting that
+            helps people learn something new.
+        </p>
+
+        <a href="about.html" class="btn">Learn More</a>
+
+    </div>
+
+</section>
+
+    <!-- About -->
+
+    <section class="about">
+
+        <h2>About This Website</h2>
+
+        <p>
+
+            Welcome! This blog is a place where I share articles about
+            technology, cars, gaming, travel, productivity and much more.
+
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 MyBlog | All Rights Reserved
+        </p>
+
+    </footer>
+<script type="module" src="firebase/firebase.js"></script>
+<script type="module" src="js/auth-state.js"></script>
+    <script src="js/script.js"></script>
+<button id="topBtn">↑</button>
+</body>
+
+</html>
